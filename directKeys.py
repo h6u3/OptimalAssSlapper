@@ -66,13 +66,22 @@ def queryMousePosition():
 
 
 
-def click(x, y):
+def click_l(x, y):
     # convert to ctypes pixels
     # x = int(x * 0.666)
     # y = int(y * 0.666)
     ctypes.windll.user32.SetCursorPos(x, y)
     ctypes.windll.user32.mouse_event(2, 0, 0, 0, 0)  # left down
     ctypes.windll.user32.mouse_event(4, 0, 0, 0, 0)  # left up
+
+def click_r(x, y):
+    # convert to ctypes pixels
+    # x = int(x * 0.666)
+    # y = int(y * 0.666)
+    ctypes.windll.user32.SetCursorPos(x, y)
+    ctypes.windll.user32.mouse_event(8, 0, 0, 0, 0)  # right down
+    ctypes.windll.user32.mouse_event(16, 0, 0, 0, 0)  # right up
+
 
 
 def moveMouseTo(x, y):
