@@ -1,0 +1,14 @@
+ass slap = 995, 530
+ingame clicker = 1868, 166
+hearts shop = 809, 946
+ - cat = 1217, 818
+exp shop = 959, 942
+ - upgrade = 952, 413
+coin shop = 1108, 940
+ - hand = 1401, 334
+ 	- gauntlet = 830, 598
+ - feet = 1220, 781
+	- shoes = 450, 597
+
+
+
